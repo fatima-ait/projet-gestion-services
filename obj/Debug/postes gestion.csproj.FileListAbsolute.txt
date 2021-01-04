@@ -1,0 +1,16 @@
+C:\Users\Fatima\Documents\Visual Studio 2010\Projects\Calculatrice_simple\WebApplication4\postes gestion\postes gestion\bin\postes gestion.dll
+C:\Users\Fatima\Documents\Visual Studio 2010\Projects\Calculatrice_simple\WebApplication4\postes gestion\postes gestion\bin\postes gestion.pdb
+C:\Users\Fatima\Documents\Visual Studio 2010\Projects\Calculatrice_simple\WebApplication4\postes gestion\postes gestion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fatima\Documents\Visual Studio 2010\Projects\Calculatrice_simple\WebApplication4\postes gestion\postes gestion\obj\Debug\postes gestion.dll
+C:\Users\Fatima\Documents\Visual Studio 2010\Projects\Calculatrice_simple\WebApplication4\postes gestion\postes gestion\obj\Debug\postes gestion.pdb
+C:\Users\Fatima\Desktop\Projet gestion\bin\postes gestion.dll
+C:\Users\Fatima\Desktop\Projet gestion\bin\postes gestion.pdb
+C:\Users\Fatima\Desktop\Projet gestion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fatima\Desktop\Projet gestion\obj\Debug\postes gestion.dll
+C:\Users\Fatima\Desktop\Projet gestion\obj\Debug\postes gestion.pdb
+D:\a DATA Fatima\Projet gestion\bin\postes gestion.dll.config
+D:\a DATA Fatima\Projet gestion\bin\postes gestion.dll
+D:\a DATA Fatima\Projet gestion\bin\postes gestion.pdb
+D:\a DATA Fatima\Projet gestion\obj\Debug\postes gestion.csprojResolveAssemblyReference.cache
+D:\a DATA Fatima\Projet gestion\obj\Debug\postes gestion.dll
+D:\a DATA Fatima\Projet gestion\obj\Debug\postes gestion.pdb

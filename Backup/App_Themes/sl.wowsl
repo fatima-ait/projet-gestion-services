@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.0</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>sl</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Fatima/Documents/Visual Studio 2010/Projects/Calculatrice_simple/WebApplication4/postes gestion/postes gestion/App_Themes/Thème1/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/Fatima/Documents/Visual Studio 2010/Projects/Calculatrice_simple/WebApplication4/postes gestion/postes gestion/App_Themes/Thème1</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54ACD2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Fatima/Downloads/téléchargement (2).jpg</url>
+                <title>téléchargement (2)</title>
+                <filesize>5895</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Downloads/téléchargement (3).jpg</url>
+                <title>téléchargement (3)</title>
+                <filesize>5381</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Downloads/logo_poste.gif</url>
+                <title>logo_poste</title>
+                <filesize>13818</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/images.jpg</url>
+                <title>images</title>
+                <filesize>8777</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images (1).jpg</url>
+                <title>images (1)</title>
+                <filesize>11483</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images (2).jpg</url>
+                <title>images (2)</title>
+                <filesize>4157</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images (3).jpg</url>
+                <title>images (3)</title>
+                <filesize>4959</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images (4).jpg</url>
+                <title>images (4)</title>
+                <filesize>7200</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images (5).jpg</url>
+                <title>images (5)</title>
+                <filesize>4481</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images (6).jpg</url>
+                <title>images (6)</title>
+                <filesize>7572</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/images.jpg</url>
+                <title>images</title>
+                <filesize>6573</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (1).jpg</url>
+                <title>téléchargement (1)</title>
+                <filesize>3209</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (2).jpg</url>
+                <title>téléchargement (2)</title>
+                <filesize>7842</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (3).jpg</url>
+                <title>téléchargement (3)</title>
+                <filesize>4287</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (4).jpg</url>
+                <title>téléchargement (4)</title>
+                <filesize>6140</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (5).jpg</url>
+                <title>téléchargement (5)</title>
+                <filesize>4525</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (6).jpg</url>
+                <title>téléchargement (6)</title>
+                <filesize>11494</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Fatima/Desktop/Projet Fatima Ait Mouss/DATA/téléchargement (7).jpg</url>
+                <title>téléchargement (7)</title>
+                <filesize>8768</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

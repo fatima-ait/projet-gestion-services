@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6899D8BF-5903-4F66-96CD-59C793AEAC19}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>postes_gestion</RootNamespace>
+    <AssemblyName>postes gestion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="11010514_1407841682862417_2419988944114414510_n.png" />
+    <Content Include="admin.aspx" />
+    <Content Include="administrateur.aspx" />
+    <Content Include="ajouter.jpg" />
+    <Content Include="annuel.aspx" />
+    <Content Include="assurence.aspx" />
+    <Content Include="Banque.aspx" />
+    <Content Include="Client.aspx" />
+    <Content Include="consolidé.aspx" />
+    <Content Include="crédit.aspx" />
+    <Content Include="delete.jpg" />
+    <Content Include="divers.aspx" />
+    <Content Include="eau.aspx" />
+    <Content Include="Evolution.aspx" />
+    <Content Include="gestion utilis.aspx" />
+    <Content Include="historique.aspx" />
+    <Content Include="images %2817%29.jpg" />
+    <Content Include="images %2818%29.jpg" />
+    <Content Include="images %2819%29.jpg" />
+    <Content Include="images %286%29.jpg" />
+    <Content Include="images.jpg" />
+    <Content Include="images\bleu ciel.jpg" />
+    <Content Include="images\del.jpg" />
+    <Content Include="images\images %281%29.jpg" />
+    <Content Include="images\images %2817%29.jpg" />
+    <Content Include="images\images %2820%29.jpg" />
+    <Content Include="images\images %284%29.jpg" />
+    <Content Include="images\images %285%29.jpg" />
+    <Content Include="images\images %287%29.jpg" />
+    <Content Include="images\images %288%29.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\login-01.png" />
+    <Content Include="images\raha.jpg" />
+    <Content Include="images\téléchargement %281%29.jpg" />
+    <Content Include="images\téléchargement %282%29.jpg" />
+    <Content Include="images\téléchargement %282%29.png" />
+    <Content Include="images\téléchargement %283%29.png" />
+    <Content Include="images\update_icon.gif" />
+    <Content Include="images\update_WDF_button.png" />
+    <Content Include="JScript1.js" />
+    <Content Include="logo pos.jpg" />
+    <Content Include="periode.aspx" />
+    <Content Include="se connecter.aspx" />
+    <Content Include="nouv realise.aspx" />
+    <Content Include="nouve obj.aspx" />
+    <Content Include="TOP.aspx" />
+    <Content Include="total.aspx" />
+    <Content Include="téléchargement %281%29.png" />
+    <Content Include="téléchargement %282%29.jpg" />
+    <Content Include="images\téléchargement %287%29.jpg" />
+    <Content Include="logo_poste.gif" />
+    <Content Include="téléchargement %283%29.jpg" />
+    <Content Include="téléchargement %286%29.jpg" />
+    <Content Include="téléchargement %287%29.jpg" />
+    <Content Include="téléchargement.jpg" />
+    <Content Include="update.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="secteur.aspx" />
+    <Content Include="pour admin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrateur.aspx.cs">
+      <DependentUpon>administrateur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrateur.aspx.designer.cs">
+      <DependentUpon>administrateur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="annuel.aspx.cs">
+      <DependentUpon>annuel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="annuel.aspx.designer.cs">
+      <DependentUpon>annuel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assurence.aspx.cs">
+      <DependentUpon>assurence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assurence.aspx.designer.cs">
+      <DependentUpon>assurence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Banque.aspx.cs">
+      <DependentUpon>Banque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Banque.aspx.designer.cs">
+      <DependentUpon>Banque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Client.aspx.cs">
+      <DependentUpon>Client.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client.aspx.designer.cs">
+      <DependentUpon>Client.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consolidé.aspx.cs">
+      <DependentUpon>consolidé.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consolidé.aspx.designer.cs">
+      <DependentUpon>consolidé.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="crédit.aspx.cs">
+      <DependentUpon>crédit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="crédit.aspx.designer.cs">
+      <DependentUpon>crédit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="divers.aspx.cs">
+      <DependentUpon>divers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="divers.aspx.designer.cs">
+      <DependentUpon>divers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eau.aspx.cs">
+      <DependentUpon>eau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eau.aspx.designer.cs">
+      <DependentUpon>eau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Evolution.aspx.cs">
+      <DependentUpon>Evolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Evolution.aspx.designer.cs">
+      <DependentUpon>Evolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gestion utilis.aspx.cs">
+      <DependentUpon>gestion utilis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gestion utilis.aspx.designer.cs">
+      <DependentUpon>gestion utilis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="historique.aspx.cs">
+      <DependentUpon>historique.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="historique.aspx.designer.cs">
+      <DependentUpon>historique.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="periode.aspx.cs">
+      <DependentUpon>periode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="periode.aspx.designer.cs">
+      <DependentUpon>periode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="postes.master.cs">
+      <DependentUpon>postes.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postes.master.designer.cs">
+      <DependentUpon>postes.master</DependentUpon>
+    </Compile>
+    <Compile Include="se connecter.aspx.cs">
+      <DependentUpon>se connecter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="se connecter.aspx.designer.cs">
+      <DependentUpon>se connecter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nouv realise.aspx.cs">
+      <DependentUpon>nouv realise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nouv realise.aspx.designer.cs">
+      <DependentUpon>nouv realise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nouve obj.aspx.cs">
+      <DependentUpon>nouve obj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nouve obj.aspx.designer.cs">
+      <DependentUpon>nouve obj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="poste.Master.cs">
+      <DependentUpon>poste.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="poste.Master.designer.cs">
+      <DependentUpon>poste.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TOP.aspx.cs">
+      <DependentUpon>TOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TOP.aspx.designer.cs">
+      <DependentUpon>TOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="total.aspx.cs">
+      <DependentUpon>total.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="total.aspx.designer.cs">
+      <DependentUpon>total.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secteur.aspx.cs">
+      <DependentUpon>secteur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secteur.aspx.designer.cs">
+      <DependentUpon>secteur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pour admin.aspx.cs">
+      <DependentUpon>pour admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pour admin.aspx.designer.cs">
+      <DependentUpon>pour admin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="poste.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="postes.master" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Themes\sl.wowsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52500</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

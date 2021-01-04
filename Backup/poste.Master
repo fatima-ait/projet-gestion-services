@@ -1,0 +1,772 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="poste.Master.cs" Inherits="postes_gestion.poste" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head runat="server" >
+ 
+               
+
+  
+   
+   
+<title> POSTE MAROC</title>
+      
+    
+</head>
+
+    <body>
+        <form  runat="server">
+    
+         
+              <asp:ContentPlaceHolder ID="head" runat="server" >
+           
+ </asp:ContentPlaceHolder> 
+            
+        <table >
+                <tr>
+                    <td class="style41" >
+<ul id="menu">
+            <li ><a href="TOP.aspx">Accuil   </a>
+            <ul> <li> <a href="historique.aspx">historique</a></li></ul>
+            </li>
+             
+               <li><a href="se connecter.aspx">déconnecter</a></li>
+                <li>
+            </li>
+                </ul>
+                        <img src="téléchargement%20(7).jpg" 
+               style="width: 583px; height: 136px; margin-left: 0px; margin-top: 0px;" /></td>
+                    <td class="style43">
+                        <marquee 
+        scrollamount="5" direction="scrolle" onmouseover="this.stop()"
+        onmouseout="this.start()" style="margin-left: 3px; height: 165px; width: 257px;">
+       <img src="images/raha.jpg"  width="150 PX" height="150 px"/>
+       <img src="images/téléchargement%20(1).jpg" width="150 PX" height="150 px" />
+       <img src="images/téléchargement%20(7).jpg"  width="150 PX" height="150 px" />
+                        </marquee>
+                    </td>
+                    <td class="style42">
+                        <img alt="" class="style45" src="logo%20pos.jpg" /><asp:Label ID="za" runat="server"></asp:Label>
+                        <br />
+                        &nbsp;<asp:ImageMap ID="ImageMap1" runat="server" Height="42px" ImageUrl="~/images (19).jpg" 
+                            onclick="ImageMap1_Click" Width="48px">
+                            <asp:CircleHotSpot NavigateUrl="~/images (17).jpg" />
+                            <asp:CircleHotSpot NavigateUrl="~/images (18).jpg" />
+                            <asp:CircleHotSpot NavigateUrl="~/images (19).jpg" />
+                            <asp:CircleHotSpot NavigateUrl="~/images (6).jpg" />
+                            <asp:CircleHotSpot NavigateUrl="~/téléchargement (2).jpg" />
+                        </asp:ImageMap>
+                        <asp:Label ID="Label1" runat="server" Text="Label" 
+                            style="color: #FFFFFF; background-color: #000000"></asp:Label>
+                        <br />
+                        <br />
+                    </td>
+
+                     </tr>
+      </table>
+
+           
+      <table class="style10"   >
+                 <tr>  
+                        
+                        <td class="style11"  valign="top" align="center">
+                           
+                            
+                                <ul id="menu-accordeon">
+                                    <li><a href="#">TABLEAU DE BORD COMMERCIAL DU E-SERVICES</a>
+                                        <ul>
+                                          <li><a href="#">par secteur</a>
+                                            <ul>
+                                            <li><a href="total.aspx">Total</a></li>
+                                          <li><a href="crédit.aspx">Crédit</a></li>
+                                           
+
+                                          
+                                            <li><a href="admin.aspx">Administration</a></li>
+                                            <li><a href="banque.aspx">Banque</a></li>
+                                            <li><a href="assurence.aspx">Assurence</a></li>
+                                            <li><a href="eau.aspx">Eau / Electricité</a></li>
+                                             <li><a href="divers.aspx">Divers</a></li>
+                                           
+                                           
+                                            </ul>
+                                            </li>
+                                            
+                                            <li><a href="periode.aspx">par Période</a>
+                                            
+                                            
+
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">TABLEAU DE BORD MENSUEL DU E-SERVICES</a>
+                                    <ul>
+                                            <li><a href="TOP.aspx">TOP10</a>
+                                            
+                                     </li></ul></li>
+                                            
+                                    <li><a href="Evolution.aspx">Evolution</a> </li>
+                                  
+                                     <li><a href="nouve obj.aspx">Recap</a>  <ul>
+                                           
+                                            <li><a href="annuel.aspx">Annuel</a></li>
+                                            <li><a href="consolidé.aspx">Consolidé</a></li>
+                                            
+                                        </ul>  </li> 
+                                </ul>
+                                </td>
+<td  id="lp" valign="top"> <asp:ContentPlaceHolder ID="ContentPlaceHolder1"  runat="server"  >
+
+</asp:ContentPlaceHolder> </td>
+  
+  
+                          
+                           
+                          </tr> 
+                  
+                    </table>
+                    
+         <table class="style22" >
+                
+            
+        <tr>
+            <td class="style23" >
+
+               Site de l'union postale universelle
+          </td>
+          <td class="style26"> [<a href="http://www.upu.int">http://www.upu.int</a>]</td>
+          </tr>
+        <tr>
+            <td class="style34">
+                Le guide du Maroc</td>
+                <td class="style35"> [<a href="http://www.leguide.ma">http://www.leguide.ma</a>]
+            </td>
+        </tr>
+        <tr>
+            <td class="style36">
+                Le Maroc sans frontières&nbsp;
+                </td> 
+                <td class="style37">[<a href="http://www.bladi.net">http://www.bladi.net</a>]
+            </td>
+        </tr>
+        <tr>
+            <td class="style28" >
+                Portail national du Maroc </td><td class="style29">[<a href="http://www.maroc.ma">http://www.maroc.ma</a>]</td>
+        </tr>
+        <tr>
+            <td class="style38" >
+        &nbsp;Le Maroc à portée du clic </td><td class="style39"> [<a href="http://www.yabiladi.com">http://www.yabiladi.com</a>]&nbsp;
+            </td>
+     
+
+       
+        </tr>
+         </table>
+            
+                                <footer>
+                                <center>
+           
+
+                                    <span class="style44">POSTE MAROC</span>
+                                  <span class="style44">- Contact information: </span> <a href="http://www.poste.ma/">
+                                 <strong><span class="style44">WWW.POSTE.MA</span></strong> </a>
+                                 </center>
+                                 </footer>
+                                  </form>
+
+ 
+  
+  </body>
+   <style id="Style1" type="text/css" runat="Server">
+      
+        title
+        {
+            color:Blue;
+            background-color:Yellow;
+            
+            }
+        #menu{
+        width: 109%;
+        margin: 0;
+        padding: 10px 0 0 0;
+        list-style: none;
+        background: #111;
+        background: -moz-linear-gradient(#444, #111);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+        background: -webkit-linear-gradient(#444, #111);
+        background: -o-linear-gradient(#444, #111);
+        background: -ms-linear-gradient(#444, #111);
+        background: #111;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        -moz-box-shadow: 0 2px 1px #9c9c9c;
+        -webkit-box-shadow: 0 2px 1px #9c9c9c;
+        box-shadow: 0 2px 1px #9c9c9c;
+            height: 22px;
+        }
+
+#menu li{
+        float: left;
+        padding: 0 0 10px 0;
+        position: relative;
+            margin-top: 0px;
+            top: 0px;
+            left: 0px;
+            height: 14px;
+        }
+
+#menu a{
+        float: left;
+        height: 25px;
+        padding: 0 25px;
+        color: #999;
+        text-transform: uppercase;
+        font: bold 12px/25px Arial, Helvetica;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a{
+        color: #fafafa;
+}
+
+*html #menu li a:hover{ /* IE6 */
+        color: #fafafa;
+}
+
+#menu li:hover > ul{
+        display: block;
+}
+
+/* Sous-menu */
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a{
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a{ /* IE6 */
+        height: 10px;
+        width: 150px;
+}
+
+*:first-child+html #menu ul a{ /* IE7 */
+        height: 10px;
+        width: 150px;
+}
+
+#menu ul a:hover{
+        background: #0186ba;
+        background: -moz-linear-gradient(#04acec,  #0186ba);
+        background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+        background: -webkit-linear-gradient(#04acec,  #0186ba);
+        background: -o-linear-gradient(#04acec,  #0186ba);
+        background: -ms-linear-gradient(#04acec,  #0186ba);
+        background: linear-gradient(#04acec,  #0186ba);
+}
+
+#menu ul li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+}
+
+#menu ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+#menu:after{
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}
+
+
+        
+        table
+        {
+            position:inherit;
+            color:Blue;
+            background-position:left;
+           height: 144px;
+           width: 1146px;
+           background-color: #000000;
+       }
+            
+          
+            
+           
+    
+           
+        body
+        {
+            background-color:Yellow;
+            
+            
+            }
+        /* <%--   menu 3
+         --%>*/
+         #menu-accordeon {
+  padding:0;
+  margin:0 20 0 0;
+  list-style:none;
+  text-align: center;
+  width: 212px;
+            background-color: #3399FF;
+           height: 561px;
+           font-size: x-small;
+       }
+#menu-accordeon ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu-accordeon ul li ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu-accordeon li {
+   background-color:#729EBF; 
+   background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+   border-radius: 6px;
+   margin-bottom:2px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40
+}
+#menu-accordeon li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+body
+{
+    border-color:Black;
+           height: 912px;
+       }
+#menu-accordeon ul li ul
+ {
+  padding:0;
+  list-style:none;
+  text-align: center;
+   background-color:#729EBF; 
+   background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+   border-radius: 6px;
+   margin-bottom:2px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40;
+           height: 211px;
+           margin-left: 0;
+           margin-right: 0;
+           margin-top: 0;
+       }
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em;
+           height: 21px;
+           width: 211px;
+           margin-top: 0px;
+       }
+#menu-accordeon ul li ul a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em;
+           height: 14px;
+       }
+
+#menu-accordeon li ul li:hover {
+   background: #729EBF
+}
+#menu-accordeon li li ul li:hover {
+   background: #999;
+}
+#menu-accordeon ul li ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon li:hover li {
+  max-height: 15em;
+}
+         
+  
+
+
+
+
+/*--- DROPDOWN ---*/
+
+
+        #map
+        { background-color:white;
+            color: #FFFFFF;
+        }
+     
+
+        .style10
+        {
+            width: 100%;
+            border: 1px solid #ffffff;
+            background-color: #ffffff;
+        }
+
+
+        .style11
+        {
+            width: 183px;
+          
+            background-color: #FFFFFF;
+            
+            border-color:Black;
+            border-style:inherit;
+            height: 481px;
+        }
+
+
+        .style23
+        {
+            width: 3070px;
+            height: 11px;
+            margin-bottom: 7px;
+            font-size: small;
+           color: white;
+       }
+        .style10
+        {
+          
+           border-bottom-color:Black;
+           border-bottom-style:solid;
+           border-bottom-width:inherit;
+           height: 570px;
+       }
+            marque
+            {
+                border-color:White;
+                color:Green;
+               
+                
+                
+                }
+
+
+        .style26
+        {
+            width: 1124px;
+            height: 11px;
+        }
+
+
+        #menu{
+        width: 93%;
+        margin: 0;
+        padding: 10px 0 0 0;
+        list-style: none;
+        background: #111;
+        background: -moz-linear-gradient(#444, #111);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+        background: -webkit-linear-gradient(#444, #111);
+        background: -o-linear-gradient(#444, #111);
+        background: -ms-linear-gradient(#444, #111);
+        background: #111;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        -moz-box-shadow: 0 2px 1px #9c9c9c;
+        -webkit-box-shadow: 0 2px 1px #9c9c9c;
+        box-shadow: 0 2px 1px #9c9c9c;
+            height: 22px;
+        }
+
+
+       .style28
+       {
+           width: 3070px;
+           font-size: small;
+           height: 15px;
+           color: white;
+       }
+       .style29
+       {
+           height: 15px;
+           width: 1124px;
+       }
+       .style34
+       {
+           width: 3070px;
+           font-size: small;
+           height: 16px;
+           color: white;
+       }
+       .style35
+       {
+           height: 16px;
+           width: 1124px;
+       }
+       .style36
+       {
+           width: 3070px;
+           font-size: small;
+           height: 1px;
+           color: white;
+       }
+       .style37
+       {
+           height: 1px;
+           width: 1124px;
+       }
+       .style38
+       {
+           width: 3070px;
+           font-size: small;
+           height: 20px;
+           color: white;
+       }
+       .style39
+       {
+           width: 1124px;
+           height: 20px;
+       }
+
+
+       .style41
+       {
+           width: 583px;
+           height: 72px;
+       }
+       
+       .style42
+       {
+           height: 72px;
+           width: 515px;
+       }
+       .style43
+       {
+           height: 72px;
+           width: 337px;
+       }
+       
+
+#top
+{ height:72px;
+  background:url(532455_528561033821173_8074815_n.jpg) no repeat top center;
+  font-size:24px;
+  text-align:center;
+  line-height:60px;
+  color:#FFFFFF;
+  margin:50px 0 40px 0;
+    
+    }
+
+       
+       .style44
+       {
+           font-size: small;
+       }
+
+       
+   
+.srt {
+        width: 109%;
+        margin: 0;
+        padding: 10px 0 0 0;
+        list-style: none;
+        background: #111;
+        background: -moz-linear-gradient(#444, #111);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+        background: -webkit-linear-gradient(#444, #111);
+        background: -o-linear-gradient(#444, #111);
+        background: -ms-linear-gradient(#444, #111);
+        background: #111;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        -moz-box-shadow: 0 2px 1px #9c9c9c;
+        -webkit-box-shadow: 0 2px 1px #9c9c9c;
+        box-shadow: 0 2px 1px #9c9c9c;
+            height: 22px;
+        }
+
+.srt li{
+        float: left;
+        padding: 0 0 10px 0;
+        position: relative;
+            margin-top: 0px;
+            top: 0px;
+            left: 0px;
+            height: 14px;
+        }
+
+.srt a{
+        float: left;
+        height: 25px;
+        padding: 0 25px;
+        color: #999;
+        text-transform: uppercase;
+        font: bold 12px/25px Arial, Helvetica;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;
+}
+
+.srt li:hover > a{
+        color: #fafafa;
+}
+
+*html .srt li a:hover{ /* IE6 */
+        color: #fafafa;
+}
+
+.srt li:hover > ul{
+        display: block;
+}
+
+/* Sous-menu */
+
+.srt ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.srt  ul li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.srt  ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+.srt ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+}
+
+.srt  ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+.srt :after{
+        visibility: hidden;
+      
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}
+
+
+        
+       .style45
+       {
+           width: 120px;
+           height: 81px;
+           margin-top: 0px;
+       }
+
+
+        
+ </style>
+    
+       
+</html>
